@@ -12,7 +12,7 @@ Este é o frontend do Portal de Talentos, desenvolvido com **ReactJS**. A aplica
 
 ## 📦 Instalação
 
-```bash
+bash
 git clone https://github.com/seu-usuario/portal-talentos-frontend.git
 cd portal-talentos-frontend
 npm install
