@@ -1,65 +1,79 @@
-# Portal de Talentos - Frontend (ReactJS)
+# 🚀 Portal de Talentos - Frontend (ReactJS)
 
-Este é o frontend do Portal de Talentos, desenvolvido com **ReactJS**. A aplicação permite o cadastro e visualização de candidatos a vagas de programação, com funcionalidades específicas para **gestores** e **candidatos**.
+Frontend do sistema **Portal de Talentos**, desenvolvido com **ReactJS**, voltado para o cadastro e gerenciamento de candidatos a vagas de programação. O sistema possui áreas dedicadas para **gestores** e **candidatos**.
 
-## 🧰 Tecnologias utilizadas
+---
 
-- ReactJS
-- Axios
-- React Router DOM
-- Styled Components / Tailwind (caso utilizado)
-- API ViaCEP
+## 🛠️ Tecnologias
+
+- ⚛️ ReactJS  
+- 📡 Axios  
+- 🌐 React Router DOM  
+- 🎨 Styled Components / TailwindCSS *(se aplicável)*  
+- 🗺️ API ViaCEP  
+
+---
 
 ## 📦 Instalação
 
-bash
+```bash
 git clone https://github.com/seu-usuario/portal-talentos-frontend.git
 cd portal-talentos-frontend
 npm install
+```
+
+---
 
 ## ▶️ Execução
-bash
-Copiar
-Editar
+
+```bash
 npm run dev
-A aplicação será executada em http://localhost:5173 (ou porta configurada no Vite/CRA).
+```
 
-## 📌 Funcionalidades
+Acesse em: [http://localhost:5173](http://localhost:5173) *(ou a porta configurada no Vite/CRA)*
 
-Tela de Login
+---
 
-Cadastro de novo usuário
+## ✨ Funcionalidades
 
-Cadastro de candidato, com:
+### 👤 Área do Candidato
 
-CEP integrado com ViaCEP para preencher o endereço automaticamente
+- Cadastro com preenchimento automático de endereço via **CEP (ViaCEP)**
+- Seleção de **múltiplas habilidades**
+- Inclusão de **formações acadêmicas**
+- Indicação visual de **seleção para entrevista**
 
-Seleção de múltiplas habilidades pré-definidas
+### 🔐 Área do Gestor
 
-Inclusão de múltiplas formações acadêmicas
+- Listagem de candidatos
+- Filtro por **nome** e **habilidades**
+- Visualização de detalhes do candidato
+- Seleção de candidatos para entrevista
 
-Notificação visual caso o candidato tenha sido selecionado
+---
 
-Área restrita para gestores com:
+## 🔗 Integração com Backend
 
-Listagem de candidatos
+As requisições são feitas via **Axios** para a API desenvolvida em **AdonisJS**.  
+A base da URL pode ser configurada no arquivo `.env`.
 
-Filtro por nome e habilidades
+---
 
-Visualização detalhada
+## 🛡️ Autenticação
 
-Seleção para entrevista
+- Autenticação baseada em **JWT**
+- Token armazenado localmente e enviado via **headers**
 
-## 📡 Integração com Backend
-As requisições são feitas via Axios para o backend em AdonisJS. A base da URL pode ser configurada no arquivo .env.
+---
 
-## 🔐 Autenticação
-A autenticação é baseada em token JWT. O token é armazenado localmente e utilizado nos headers das requisições.
+## ✅ Pré-requisitos
 
-## ✅ Requisitos
-Node.js v18+
+- Node.js **v18+**
+- Backend em funcionamento ➡️ *Veja o README do backend*
 
-Backend do projeto em funcionamento (veja o README do backend)
+---
 
-## ✉️ Contato
-Para dúvidas, sugestões ou bugs, abra uma issue no repositório ou entre em contato.
+## 📬 Contato
+
+Encontrou um problema ou tem uma sugestão?  
+Abra uma issue ou entre em contato diretamente.
