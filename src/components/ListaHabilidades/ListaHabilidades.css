@@ -1,0 +1,70 @@
+.excluir-habilidade {
+  background: none;
+  border: none;
+  color: grey;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1.2;
+  padding: 0;
+  ;
+  transition: color 0.3s ease;
+  background-color: none;
+}
+
+.excluir-habilidade:hover {
+  color: #c53030;
+  /* Cor mais intensa ao passar o mouse */
+}
+
+.excluir-habilidade:focus {
+  outline: none;
+  /* Remover contorno ao clicar */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+.input-field {
+  padding: 8px 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  color: #333;
+  /* Cor do texto (preto suave) */
+  transition: all 0.3s ease;
+  outline: none;
+  max-width: 80%;
+  max-height: 35px;
+
+}
+
+.input-field:focus {
+  border-color: #4f46e5;
+  /* Roxo elegante */
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+}
+
+label {
+  color: #374151;
+  /* Cinza escuro */
+}
+
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: row;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
