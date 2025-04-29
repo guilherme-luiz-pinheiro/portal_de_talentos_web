@@ -16,14 +16,16 @@ Este é o frontend do Portal de Talentos, desenvolvido com **ReactJS**. A aplica
 git clone https://github.com/seu-usuario/portal-talentos-frontend.git
 cd portal-talentos-frontend
 npm install
-▶️ Execução
+
+## ▶️ Execução
 bash
 Copiar
 Editar
 npm run dev
 A aplicação será executada em http://localhost:5173 (ou porta configurada no Vite/CRA).
 
-📌 Funcionalidades
+## 📌 Funcionalidades
+
 Tela de Login
 
 Cadastro de novo usuário
@@ -48,16 +50,16 @@ Visualização detalhada
 
 Seleção para entrevista
 
-📡 Integração com Backend
+## 📡 Integração com Backend
 As requisições são feitas via Axios para o backend em AdonisJS. A base da URL pode ser configurada no arquivo .env.
 
-🔐 Autenticação
+## 🔐 Autenticação
 A autenticação é baseada em token JWT. O token é armazenado localmente e utilizado nos headers das requisições.
 
-✅ Requisitos
+## ✅ Requisitos
 Node.js v18+
 
 Backend do projeto em funcionamento (veja o README do backend)
 
-✉️ Contato
+## ✉️ Contato
 Para dúvidas, sugestões ou bugs, abra uma issue no repositório ou entre em contato.
